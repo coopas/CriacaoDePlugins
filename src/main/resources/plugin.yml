@@ -1,0 +1,10 @@
+name: TutorialSpigot
+version: '${project.version}'
+main: com.coopas.tutorialspigot.Main
+authors: [Coopas]
+description: Um plugin para uma seria de tutoriais do youtube
+website: https://github.com/coopas
+commands:
+  fly:
+    description: Ativar/Desativar o modo fly do jogador
+    permission: plugin.fly
