@@ -11,7 +11,7 @@
 
   <name>TutorialSpigot</name>
 
-    <description>Um plugin para uma seria de tutoriais do youtube</description>
+    <description>Um plugin para uma serie de tutoriais do youtube</description>
     <properties>
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
