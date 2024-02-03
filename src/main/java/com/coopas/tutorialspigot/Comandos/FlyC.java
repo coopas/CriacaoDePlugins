@@ -1,5 +1,6 @@
 package com.coopas.tutorialspigot.Comandos;
 
+import com.coopas.tutorialspigot.Main;
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -19,10 +20,12 @@ public class FlyC implements CommandExecutor {
 
                     if(p.getAllowFlight() == true) {
                         p.setAllowFlight(false);
-                        sender.sendMessage("§cSeu fly foi desativado!");
+                        sender.sendMessage(Main.messages.getConfig().getString("Fly.desativo")
+                                .replace('&', '§'));
                     } else {
                         p.setAllowFlight(true);
-                        sender.sendMessage("§aSeu fly foi ativado!");
+                        sender.sendMessage(Main.messages.getConfig().getString("Fly.ativo")
+                                .replace('&', '§'));
                     }
 
                 } else {
