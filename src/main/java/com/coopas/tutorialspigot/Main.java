@@ -39,7 +39,6 @@ public class Main extends JavaPlugin {
 
         config = new Config(plugin, "config.yml");
         config.saveDefaultConfig();
-        
         messages = new Config(plugin, "messages.yml");
         messages.saveDefaultConfig();
 
